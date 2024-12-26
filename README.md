@@ -17,7 +17,7 @@ Analysis Questions and SQL Solutions
 ###open the table;
 SELECT * FROM ipl_data_analysis.ipl_ball_by_ball_2008_2022;
 
-###Descriptive Statistics
+##Descriptive Statistics
 ### 1. What are the total runs scored by each team?
 SELECT 
     BattingTeam, SUM(total_run) AS Total_runs
